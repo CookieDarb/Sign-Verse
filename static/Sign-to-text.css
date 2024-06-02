@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('/static/Sign-Verse-main/Images/Sign-verse.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  background-color:transparent;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.header h1 {
+  font-style:Bold;
+  font-size:2cm;
+  color: #f87d02;
+}
+
+.header h2 {
+  font-family: Monospace;
+  font-size:1cm;
+  color: #3B8AA9;
+}
+.column{
+  align-items: center;
+  justify-content: center;
+}
+.cam{
+  width:700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.predtext{
+  color:gold;
+  align-items: center;
+  font-size: 30px;
+  padding:5px;
+  background-color:transparent;
+  width:fit-content;
+  margin-left: 220px;
+}
+/* Styles for the toggle button */
+.checkbox {
+  width: 223px;
+  height: 60px;
+  background-color: #d0d0d0;
+  border-radius: 30px;
+  position: relative;
+  color: black;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:5px;
+}
+
+#checkbox_toggle {
+  display: none;
+}
+
+.checkbox .toggle {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  border-radius: 30px;
+  left: 5px;
+  cursor: pointer;
+  background: linear-gradient(40deg, #FF0080,#FF8C00 70%);
+  transition: 0.4s;
+  box-shadow: 0px 0px 3px rgb(255, 255, 20), 0px 0px 5px rgb(255, 255, 20);
+}
+
+.checkbox .slide {
+  width: 230px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.checkbox .slide .text {
+  font-size: 16px;
+  font-weight: 700;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.check:checked + .checkbox .slide .toggle {
+  transform: translateX(113px);
+}

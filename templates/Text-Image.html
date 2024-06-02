@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignVerse</title>
+    <link rel="stylesheet" href="/static/Text-Image-Style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="index.html" class="button" id="logo"><img src="/static/Sign-Verse-main/Images/logoo.png" alt="logo" width="300px" height="150px" ></a>
+            <a href="Sign.html" class="button"><h2 style="color:#FFD700;">CONNECTING THROUGH SIGNS</h2></a>
+        </div>
+    </div>
+    <div class="s">
+        <h3 style="color:aliceblue;">Translate Text To Sign-Language GIF</h3>
+        <div class="form-container">
+            <form>
+                <p><b style="color:aliceblue;">Enter Text Here</b></p>
+                <div class="input-container">
+                    <input id="textInput" type="text" size="1" onkeypress="handleKeyPress(event)" >
+                    <!-- <button type="button2" onclick="showGif(document.getElementById('textInput').value)">TRANSLATE</button> -->
+                    <button class="button-29" type="button" onclick="showGif(document.getElementById('textInput').value)">TRANSLATE</button>
+                </div>
+            </form>
+            <!-- <button type="button2"><a href="index.html">BACK TO HOME</a></button> -->
+            <button class="button-30" role="button"><a href="index.html">BACK TO HOME</a></button>
+        </div>
+        <div class="gif">
+            <img id="gifDisplay" src="" class="r">
+        </div>
+    </div>
+
+    <script>
+        function showGif(inputValue) {
+            const gifDisplay = document.getElementById('gifDisplay');
+            const gifMap = {
+                'A': '/static/Sign-Verse-main/Images/A/1.jpg',
+                'B': '/static/Sign-Verse-main/Images/B/2.jpg',
+                'C': '/static/Sign-Verse-main/Images/C/3.jpg',
+                'D': '/static/Sign-Verse-main/Images/D/4.jpg',
+                'E': '/static/Sign-Verse-main/Images/E/5.jpg', 
+                'F': '/static/Sign-Verse-main/Images/F/6.jpg', 
+                'G': '/static/Sign-Verse-main/Images/G/7.jpg', 
+                'H': '/static/Sign-Verse-main/Images/H/8.jpg', 
+                'I': '/static/Sign-Verse-main/Images/I/9.jpg',
+                'J': '/static/Sign-Verse-main/Images/J/10.jpg', 
+                'K': '/static/Sign-Verse-main/Images/K/11.jpg', 
+                'L': '/static/Sign-Verse-main/Images/L/12.jpg', 
+                'M': '/static/Sign-Verse-main/Images/M/13.jpg', 
+                'N': '/static/Sign-Verse-main/Images/N/14.jpg', 
+                'O': '/static/Sign-Verse-main/Images/O/15.jpg', 
+                'P': '/static/Sign-Verse-main/Images/P/16.jpg', 
+                'Q': '/static/Sign-Verse-main/Images/Q/17.jpg', 
+                'R': '/static/Sign-Verse-main/Images/R/18.jpg', 
+                'S': '/static/Sign-Verse-main/Images/S/19.jpg', 
+                'T': '/static/Sign-Verse-main/Images/T/20.jpg', 
+                'U': '/static/Sign-Verse-main/Images/U/21.jpg',
+                'V': '/static/Sign-Verse-main/Images/V/22.jpg', 
+                'W': '/static/Sign-Verse-main/Images/W/23.jpg', 
+                'X': '/static/Sign-Verse-main/Images/X/24.jpg', 
+                'Y': '/static/Sign-Verse-main/Images/Y/25.jpg',
+                'Z': '/static/Sign-Verse-main/Images/Z/26.jpg', 
+                '0': '/static/Sign-Verse-main/Images/0/27.jpg', 
+                '1': '/static/Sign-Verse-main/Images/1/1.jpg', 
+                '2': '/static/Sign-Verse-main/Images/2/2.jpg', 
+                '3': '/static/Sign-Verse-main/Images/3/3.jpg', 
+                '4': '/static/Sign-Verse-main/Images/4/4.jpg', 
+                '5': '/static/Sign-Verse-main/Images/5/5.jpg', 
+                '6': '/static/Sign-Verse-main/Images/6/6.jpg', 
+                '7': '/static/Sign-Verse-main/Images/7/7.jpg', 
+                '8': '/static/Sign-Verse-main/Images/8/8.jpg', 
+                '9': '/static/Sign-Verse-main/Images/9/9.jpg', 
+            };
+
+            if (inputValue.toUpperCase() in gifMap) {
+                gifDisplay.src = gifMap[inputValue.toUpperCase()];
+            } else {
+                gifDisplay.src = '';
+            }
+        }
+
+        function handleKeyPress(event) {
+            if (event.keyCode === 13) { // Check if Enter key is pressed
+                event.preventDefault(); // Prevent form submission
+                showGif(document.getElementById('textInput').value);
+            }
+        }
+    </script>
+</body>
+</html>
