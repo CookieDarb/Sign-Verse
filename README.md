@@ -23,7 +23,7 @@ To use the ISL recognition model, follow these steps:
 
 **Image Collection:**
 
-1. Run the `imagecollection.py` script to collect images of ISL gestures.
+1. Run the `image_collection.py` script to collect images of ISL gestures.
 2. Press 's' to save images. Images will be saved in the specified folder for further processing.
 
 **Training (Optional):**
