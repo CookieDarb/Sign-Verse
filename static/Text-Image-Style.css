@@ -1,0 +1,211 @@
+body {
+    background-image: url('/static/Sign-Verse-main/Images/Sign-verse.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background-color:transparent;
+    color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header h1 {
+    font-style: Bold;
+    font-size: 2cm;
+    color: #f87d02;
+}
+
+.header h2 {
+    font-family: Monospace;
+    font-size: 1cm;
+    color: #3B8AA9;
+}
+
+#gifDisplay {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; 
+    
+}
+
+input {
+    padding: 10px; 
+    margin: 10px; 
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+
+div.s {
+    
+    background-color: #47b6df;
+    padding: 20px; 
+    margin: 20px auto; 
+    max-width: 600px; 
+    box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(206, 233, 244, 0.32) 0px 2px 16px 0px;
+    border-radius:15px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left; 
+}
+
+.s form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left; 
+    align-items: center; 
+    
+}
+
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right; 
+}
+.header h3 {
+    font-family: Monospace;
+    font-size: 1cm;
+    color: #e10b0b2b;
+}
+.button2{
+    font-size: 20px;
+    color: rgba(252, 162, 6, 0.427);
+    font: bold;
+    padding: 10px 20px; 
+    margin-top: 20px; 
+    background-color: #8761da;
+}
+.button2:hover {
+    background-color: #5E3A5E;
+}
+.button-29 {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    margin-left: 12px;
+    margin-right: 5px;
+  }
+  
+  .button-29:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  }
+  
+  .button-29:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .button-29:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+  
+ 
+
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.button-30:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.button-30 a:link{
+    color: #fff !important;
+    text-decoration: none;
+  }
+
+.button-30 a:visited{
+    color:#fff;
+}

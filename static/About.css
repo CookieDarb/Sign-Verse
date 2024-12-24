@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    color:#fff;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.05); 
+    position: relative; 
+    background-image: url('Sign-Verse-main/Images/Sign-verse.jpg');
+}
+
+.column {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #f87d02;
+    margin-bottom: 10px;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    color: #3B8AA9;
+    margin-bottom: 10px;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.background-image {
+    position: fixed;
+    top: 150;
+    right: 50;
+    width: 40%;
+    height: 61%; 
+    background-image: url('/static/Sign-Verse-main/Images/SignVerse-Bold.jpg');
+    background-size:cover  ; 
+    background-position: top right; 
+    z-index: -1; 
+    margin-top: 75px;
+}
+
+@media (max-width: 768px) {
+    .column {
+        width: 100%;
+    }
+}
+a:link {
+    text-decoration: none;
+}
+
