@@ -58,12 +58,6 @@ body {
     color: #3B8AA9;
 }
 
-
-
-
-
-
-
 .button2 {
     display: block;
     width: 100%;
@@ -80,8 +74,6 @@ body {
 .button2:hover {
     background-color: #5E3A5E;
 }
-
-
 
 .container {
     
@@ -117,13 +109,6 @@ body {
     color: #3B8AA9;
 }
 
-
-
-
-
-
-
-
 .button2 {
     display: block;
     width: 100%;
@@ -140,7 +125,6 @@ body {
 .button2:hover {
     background-color: #5E3A5E;
 }
-
 
 .image1{
     width: 150%;
