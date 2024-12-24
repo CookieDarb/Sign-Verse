@@ -2,6 +2,8 @@
 
 This project is an Indian Sign Language (ISL) recognition model that translates ISL gestures into English text. It recognizes static signs, including alphabets and numbers, captured by a camera and provides real-time translation through a web interface.
 
+![](https://github.com/CookieDarb/Sign-Verse/blob/main/demo-sign.gif)
+
 ## Overview
 
 The project consists of the following components:
